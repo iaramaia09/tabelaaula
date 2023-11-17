@@ -112,7 +112,7 @@ function excluirCliente(matricula) {
 
 // Função para carregar dados na tabela
 function carrega() {
-    let tabela = document.getElementById("carros");
+    let tabela = document.getElementById("tabela");
     clientes = JSON.parse(localStorage.getItem("clientes")) || [];
 
     tabela.innerHTML = "";
@@ -150,7 +150,7 @@ function cadastrarCliente() {
 
     // Verifica se a placa já está cadastrada
     if (clienteExistente(matricula)) {
-        alert("Placa já cadastrada. Insira uma placa única.");
+        alert("Matrícula já cadastrada. Insira uma matrícula única.");
         return;
     }
 
