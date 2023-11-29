@@ -80,7 +80,7 @@ function modal(button) {
     matriculaModal.innerHTML = cliente.matricula;
     nomeModal.innerHTML = cliente.nome;
     atendimentoModal.innerHTML = cliente.atendimento;
-    livroModal.innerHTML = cliente.conhecimento;
+    livroModal.innerHTML = cliente.livro;
     infraestruturaModal.innerHTML = cliente.infraestrutura;
     qualidadeServicoModal.innerHTML = cliente.qualidadeServico;
 
